@@ -1,0 +1,5 @@
+.round-image {
+  width: 50%;
+  border: 5px solid black;
+  border-radius: 50%;
+}
