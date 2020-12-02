@@ -4,8 +4,9 @@ import '../styles/Logo.css'
 
 export default function Logo() {
     return (
-        <div>
+        <div className="wrapper">
             <img src={logo} alt="" className="round-image"/>
         </div>
     )
 }
+

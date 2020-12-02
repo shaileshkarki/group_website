@@ -1,12 +1,14 @@
 import React from 'react'
-import Logo from './Logo'
+import Logo from './Logo';
+import InformationPara from './InformationPara';
+import LinkButton from './LinkButton'
 
 export default function Home() {
     return (
-        <div>
+        <div className="wrapper">
             <Logo />
-            <h1>Hi, we are Glen, Peter and Shailesh.</h1> 
-            <h2>And, this is a website to showcase some of the projects we have done together.</h2>
+            <InformationPara title="Hi, we are Glen, Peter and Shailesh." body="And, this is a website to showcase some of the projects we have done together." />
+            <LinkButton target="/TechnicalStack" link="Know about our Technology Stack" />
         </div>
     )
 }
