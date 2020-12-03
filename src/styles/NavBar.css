@@ -1,0 +1,31 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    text-align:  center;
+    width: 120px;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.nav-bar a:hover {
+    background-color: red;
+}
+.current-page {
+    background-color: red;
+}
+@media screen and (max-width: 500px) {
+
+    .nav-bar a {
+        width: 70px;
+        font-size: 12px;
+   }
+}
