@@ -1,0 +1,14 @@
+.card-wrapper {
+}
+.card-title {
+    font-weight: bold;
+    color: black;
+    align-content: center;
+    text-align: center;
+}
+
+.card-paragraph {
+    color: darkgray;
+    align-content: center;
+    text-align: center;
+}
