@@ -1,14 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
 .card-wrapper {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid black;
+    width: 20%;
+
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.card-image {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .card-title {
     font-weight: bold;
     color: black;
-    align-content: center;
-    text-align: center;
 }
 
 .card-paragraph {
     color: darkgray;
-    align-content: center;
-    text-align: center;
 }
