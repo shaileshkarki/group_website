@@ -20,6 +20,19 @@
     /* background-color: gold; */
 }
 
+.center-email-status {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
 @media screen and (max-width: 600px) {
 
     .contact-us{
