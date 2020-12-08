@@ -1,18 +1,28 @@
 .card-wrapper {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 20%;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .card-title {
-    font-weight: bold;
-    color: black;
-    align-content: center;
-    text-align: center;
+  font-weight: bold;
+  color: black;
+  align-content: center;
+  text-align: center;
 }
 
 .card-paragraph {
-    color: darkgray;
-    align-content: center;
-    text-align: center;
+  color: darkgray;
+  align-content: center;
+  text-align: center;
 }
 
 .font-awesome {
-    margin-top: 10px;
+  margin-top: 10px;
 }

@@ -6,6 +6,7 @@ import LargeCard from "./LargeCard";
 import SmallCard from "./SmallCard";
 import AboutUs from "./AboutUs";
 import "../styles/Home.css";
+import theImage from "../images/2020.jpg";
 
 export default function Home() {
     return (

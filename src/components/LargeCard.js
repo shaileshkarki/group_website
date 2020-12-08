@@ -1,19 +1,52 @@
 import React from "react";
-import theImage from "../images/2020.jpg";
 import "../styles/LargeCard.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function LargeCard(props) {
     return (
-        <div className="card-wrapper">
-            <img
-                src={theImage}
+        <div className="ls-card-wrapper ">
+            <a href={props.link}><img
+                src={props.image}
                 height="100%"
                 width="100%"
                 alt=""
-                className="card-image"
+                className="ls-card-image"
+            /></a>
+            <h3 className="ls-card-title">{props.title}</h3>
+            <p className="ls-card-paragraph">{props.content}</p>
+       
+            <div className="ls-technology">
+            <FontAwesomeIcon
+                    icon="dog"
+                    size={"2x"}
+                    color="red"
             />
-            <h3 className="card-title">{props.title}</h3>
-            <p className="card-paragraph">{props.content}</p>
+            <FontAwesomeIcon
+                    icon="dog"
+                    size={"2x"}
+                    color="red"
+            />
+            <FontAwesomeIcon
+                    icon="dog"
+                    size={"2x"}
+                    color="red"
+            />
+            <FontAwesomeIcon
+                    icon="dog"
+                    size={"2x"}
+                    color="red"
+            />
+            <FontAwesomeIcon
+                    icon="dog"
+                    size={"2x"}
+                    color="red"
+            />
+            <FontAwesomeIcon
+                    icon="dog"
+                    size={"2x"}
+                    color="red"
+            />            
+            </div>        
         </div>
     );
 }

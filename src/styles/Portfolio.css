@@ -1,0 +1,20 @@
+.portfolio_list {
+  display: grid;
+  grid-gap: 1rem;
+  margin: auto;
+  width: 80%;
+  /* grid-auto-rows: max-content;
+   */
+  height: auto;
+}
+@media only screen and (max-width: 767px) {
+  .portfolio_list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolio_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
