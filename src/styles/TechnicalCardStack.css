@@ -1,0 +1,33 @@
+.card-wrapper {
+    flex-basis: auto;
+}
+.card-title {
+    font-weight: bold;
+    color: black;
+    align-content: center;
+    text-align: center;
+}
+
+.card-content {
+    margin: 0px 10px 10px 10px;
+    color: darkgray;
+    align-content: center;
+    text-align: justify;
+    align-items: stretch;
+}
+
+.card-image {
+    margin-top: 10px;
+}
+
+/* .apple-icon {
+    background-image: url(../images/programming_icons/apple.png);
+    height: 20px;
+    width: 20px;
+}
+
+.android-icon {
+    background-image: url(../images/programming_icons/android.png);
+    height: 20px;
+    width: 20px;
+} */
