@@ -14,6 +14,7 @@ export default function TechnicalCardStack(props) {
             />
             <h3 className="card-title">{props.title}</h3>
             <p className="card-content">{props.content}</p>
+
         </div>
     );
 }

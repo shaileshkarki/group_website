@@ -1,13 +1,27 @@
-.portfolio_list {
+/* .portfolio_list {
   display: grid;
   grid-gap: 1rem;
   margin: auto;
   width: 80%;
-  /* grid-auto-rows: max-content;
-   */
+  grid-auto-rows: max-content;
+  
   height: auto;
+} */
+
+
+.portfolio_list {
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-rows: 1fr;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+  
+
 }
-@media only screen and (max-width: 767px) {
+
+
+/* @media only screen and (max-width: 767px) {
   .portfolio_list {
     grid-template-columns: 1fr;
   }
@@ -17,4 +31,4 @@
   .portfolio_list {
     grid-template-columns: repeat(3, 1fr);
   }
-}
+} */
