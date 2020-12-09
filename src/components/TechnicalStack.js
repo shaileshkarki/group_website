@@ -18,6 +18,8 @@ import reactLogo from "../images/programming_icons/react.png";
 import rubyLogo from "../images/programming_icons/ruby.png";
 import slackLogo from "../images/programming_icons/slack-2.png";
 
+// glen comment
+
 export default function TechnicalStack() {
     return (
         <div>
@@ -169,6 +171,6 @@ export default function TechnicalStack() {
                     />
                 </div>
             </div>
-        </div >
+        </div>
     );
 }
