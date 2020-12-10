@@ -25,63 +25,6 @@ export default function Home() {
                 />
             </div>
 
-            <center>
-                <h3> Large Card Example below</h3>
-            </center>
-            <div className="thirds">
-                <LargeCard
-                    title="Project 1"
-                    content="Example text for the first project and all technologies used goes here"
-                />
-                <LargeCard
-                    title="Project 2"
-                    content="Example text for the second project and all technologies used goes here"
-                />
-                <LargeCard
-                    title="Project 3"
-                    content="Example text for the third project and all technologies used goes here"
-                />
-            </div>
-
-            <div className="thirds">
-                <LargeCard
-                    title="Project 4"
-                    content="Example text for the fourth project and all technologies used goes here"
-                />
-                <LargeCard
-                    title="Project 5"
-                    content="Example text for the fifth project and all technologies used goes here"
-                />
-                <LargeCard
-                    title="Project 6"
-                    content="Example text for the sixth project and all technologies used goes here"
-                />
-            </div>
-
-            <center>
-                <h3> Small Card Example below</h3>
-            </center>
-
-            <div className="thirds">
-                <SmallCard
-                    iconName="user"
-                    color="red"
-                    title="Project 1"
-                    content="Example text for the first project and all technologies used goes here"
-                />
-                <SmallCard
-                    iconName="question"
-                    color="red"
-                    title="Project 2"
-                    content="Example text for the second project and all technologies used goes here"
-                />
-                <SmallCard
-                    iconName="dog"
-                    color="red"
-                    title="Project 3"
-                    content="Example text for the third project and all technologies used goes here"
-                />
-            </div>
 
             <center>
                 <h3>About Us Card Example</h3>
@@ -95,7 +38,7 @@ export default function Home() {
             <AboutUs
                 personName="Peter H"
                 jobTitle="Software Engineer"
-                content="DASFDSSDFDSF ASDFASFASDFASDF ASDFASFASDF AS ASDFASFASDF ASASDFASDFASDFSAD ASDFASFD ASDFJKASFJKD  AJSKDFHAJKSHFD ASDFK JADSKFJH  ASDFJHASJDHF ASJDF ASJDHF AJSDHF JAKSDHFASJDFSADJFHASJFHASDF ASJDHFASKJDFHASJDKFH ASJKDFH ASJKDHF ASJKDFH AJKSDHF JAKSHF AJDHAJDSFH ASKDJHFASKJFH ASKDJHF AKJSDHF JKAHDSFJKA HDFJK HKJAHDSFJKASHDF JA AJKSDHF JAKSDFH AKJSDH AJKSDH DFS DASFDSSDFDSF ASDFASFASDFASDF ASDFASFASDF AS ASDFASFASDF ASASDFASDFASDFSAD ASDFASFD ASDFJKASFJKD  AJSKDFHAJKSHFD ASDFK JADSKFJH  ASDFJHASJDHF ASJDF ASJDHF AJSDHF JAKSDHFASJDFSADJFHASJFHASDF ASJDHFASKJDFHASJDKFH ASJKDFH ASJKDHF ASJKDFH AJKSDHF JAKSHF AJDHAJDSFH ASKDJHFASKJFH ASKDJHF AKJSDHF JKAHDSFJKA HDFJK HKJAHDSFJKASHDF JA AJKSDHF JAKSDFH AKJSDH AJKSDH DFS"
+                content="Afer 15 years in transport logistics moved into software development. Initially with ios and now have branched out to be a full stack software engineer. I have built websites, apps for mobile and really enjoy the challenges of software development and the satisfaction of beoing able to create a product from scratch and deliver a software sollution that the client is happy with and plays a role in their day to day business lives."
             />
 
             <AboutUs

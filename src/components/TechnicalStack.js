@@ -37,32 +37,38 @@ export default function TechnicalStack() {
 
             {/* <div className="thirds"> */}
             {/* <section style={{ display: "flex", alignItems: "center", backgroundColor: "yellow", alignSelf: "center", width: "80%", marginLeft: "10%" }}> */}
-            <div className="tech-stack-container-multiple">
+            <div className="tech-stack-container">
                 <div className="tech-stack-card-wrapper">
-                    <TechnicalCardStack
-                        src={htmlLogo}
-                        title="HTML"
-                        content="We use the latest HTML5 specification to ensure all websites and applications render nicely across all browsers."
-                    />
-                    <TechnicalCardStack
-                        src={cssLogo}
-                        title="CSS3"
-                        content="CSS3 (the latest version) is used to maximise complete control over the visual appearance of the website and/or applications."
-                    />
-
-                    <TechnicalCardStack
-                        src={javascriptLogo}
-                        title="JavaScript"
-                        content="JavaScript allows us to create both dynamic & interacdtive frontend solutions and where necessary, complex backend solutions."
-                    />
-
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={htmlLogo}
+                            title="HTML"
+                            content="We use the latest HTML5 specification to ensure all websites and applications render nicely across all browsers."
+                        />
+                    </div>
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={cssLogo}
+                            title="CSS3"
+                            content="CSS3 (the latest version) is used to maximise complete control over the visual appearance of the website and/or applications."
+                        />
+                    </div>
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={javascriptLogo}
+                            title="JavaScript"
+                            content="JavaScript allows us to create both dynamic & interacdtive frontend solutions and where necessary, complex backend solutions."
+                        />
+                    </div>
                     {/* <div className="thirds"> */}
-                    <TechnicalCardStack
-                        src={rubyLogo}
-                        title="Ruby"
-                        content="We use Ruby to also create great looking frontend solutions and backend solution too."
-                    />
-                    {/* </div> */}
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={rubyLogo}
+                            title="Ruby"
+                            content="We use Ruby to also create great looking frontend solutions and backend solution too."
+                        />
+                        {/* </div> */}
+                    </div>
                 </div>
             </div>
             {/* </section> */}
@@ -74,24 +80,28 @@ export default function TechnicalStack() {
             </div>
 
             {/* <div className="thirds"> */}
-            <div className="tech-stack-container-multiple">
+            <div className="tech-stack-container">
                 <div className="tech-stack-card-wrapper">
-                    <TechnicalCardStack
-                        src={nodejsLogo}
-                        title="Node js"
-                        content="Node.js is used to enable us to develop non-blocking, asynchronous applications which is very memory efficient for today's apps/websites."
-                    />
-                    <TechnicalCardStack
-                        src={expoLogo}
-                        title="Expo"
-                        content="We use the Expo framework built around React Native to develop, build, deploy apps for iOS & Android all whilst using JavaScript"
-                    />
-
-                    <TechnicalCardStack
-                        src={reactLogo}
-                        title="React and React Native"
-                        content="React and React Native are used to quicly devise and build great looking UI's seamlessly across multiple platforms such as Android and IOS."
-                    />
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={nodejsLogo}
+                            title="Node js"
+                            content="Node.js is used to enable us to develop non-blocking, asynchronous applications which is very memory efficient for today's apps/websites."
+                        />
+                    </div>
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={expoLogo}
+                            title="Expo"
+                            content="We use the Expo framework built around React Native to develop, build, deploy apps for iOS & Android all whilst using JavaScript"
+                        /></div>
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={reactLogo}
+                            title="React and React Native"
+                            content="React and React Native are used to quicly devise and build great looking UI's seamlessly across multiple platforms such as Android and IOS."
+                        />
+                    </div>
                 </div>
             </div>
             <div>
@@ -101,19 +111,21 @@ export default function TechnicalStack() {
             </div>
 
             {/* <div className="thirds"> */}
-            <div className="tech-stack-container-multiple">
+            <div className="tech-stack-container">
                 <div className="tech-stack-card-wrapper">
-                    <TechnicalCardStack
-                        src={androidLogo}
-                        title="Android"
-                        content="By utilsing the EXPO framework, we develop great looking and functional applications quickly all via native JavaScript."
-                    />
-
-                    <TechnicalCardStack
-                        src={appleLogo}
-                        title="IOS"
-                        content="Expo's cross playform solutions enable us to quickly develop great looking applications with our expert knowledge of Javascript."
-                    />
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={androidLogo}
+                            title="Android"
+                            content="By utilsing the EXPO framework, we develop great looking and functional applications quickly all via native JavaScript."
+                        /></div>
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={appleLogo}
+                            title="IOS"
+                            content="Expo's cross playform solutions enable us to quickly develop great looking applications with our expert knowledge of Javascript."
+                        />
+                    </div>
                 </div>
             </div>
 
@@ -124,13 +136,15 @@ export default function TechnicalStack() {
             </div>
 
             {/* <div className="thirds"> */}
-            <div className="tech-stack-container-single">
+            <div className="tech-stack-container">
                 <div className="tech-stack-card-wrapper">
-                    <TechnicalCardStack
-                        src={herokuLogo}
-                        title="Heroku"
-                        content="We use Heroku is it makes the processes of deploying, configuring, scaling, tuning, and managing apps as simple and straightforward."
-                    />
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={herokuLogo}
+                            title="Heroku"
+                            content="We use Heroku is it makes the processes of deploying, configuring, scaling, tuning, and managing apps as simple and straightforward."
+                        />
+                    </div>
                 </div>
             </div>
 
@@ -140,13 +154,15 @@ export default function TechnicalStack() {
                 </center>
             </div>
             {/* <div className="thirds"> */}
-            <div className="tech-stack-container-single">
+            <div className="tech-stack-container">
                 <div className="tech-stack-card-wrapper">
-                    <TechnicalCardStack
-                        src={databaseLogo}
-                        title="Databases"
-                        content="PostgreSQL and SQlite are our main databases but can easily work with MySQL, MariaDB and other popular databases."
-                    />
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={databaseLogo}
+                            title="Databases"
+                            content="PostgreSQL and SQlite are our main databases but can easily work with MySQL, MariaDB and other popular databases."
+                        />
+                    </div>
                 </div>
             </div>
             <div>
@@ -156,19 +172,22 @@ export default function TechnicalStack() {
             </div>
 
             {/* <div className="thirds"> */}
-            <div className="tech-stack-container-multiple">
+            <div className="tech-stack-container">
                 <div className="tech-stack-card-wrapper">
-                    <TechnicalCardStack
-                        src={githubLogo}
-                        title="Github"
-                        content="We use GitHub for our code hosting & version control. It lets our team to efficiently work together on projects from anywhere."
-                    />
-
-                    <TechnicalCardStack
-                        src={slackLogo}
-                        title="Slack"
-                        content="Slack is our go-to choice for constant communication and collaboration within a secure, enterprise-grade environment."
-                    />
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={githubLogo}
+                            title="Github"
+                            content="We use GitHub for our code hosting & version control. It lets our team to efficiently work together on projects from anywhere."
+                        />
+                    </div>
+                    <div className="center-tech-stack">
+                        <TechnicalCardStack
+                            src={slackLogo}
+                            title="Slack"
+                            content="Slack is our go-to choice for constant communication and collaboration within a secure, enterprise-grade environment."
+                        />
+                    </div>
                 </div>
             </div>
         </div>
