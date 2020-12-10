@@ -25,7 +25,6 @@ export default function Home() {
                 />
             </div>
 
-
             <center>
                 <h3>About Us Card Example</h3>
             </center>
@@ -38,13 +37,13 @@ export default function Home() {
             <AboutUs
                 personName="Peter H"
                 jobTitle="Software Engineer"
-                content="Afer 15 years in transport logistics moved into software development. Initially with ios and now have branched out to be a full stack software engineer. I have built websites, apps for mobile and really enjoy the challenges of software development and the satisfaction of beoing able to create a product from scratch and deliver a software sollution that the client is happy with and plays a role in their day to day business lives."
+                content="Afer 15 years in transport logistics, I have moved into software development. Initially with iOS and now have branched out to be a Full Stack Software Engineer. I have built websites, apps for mobile and really enjoy the challenges of software development and the satisfaction of being able to create a product from scratch and deliver a software solution that the client is happy with and plays a role in their day to day business lives."
             />
 
             <AboutUs
-                personName="Glen J"
+                personName="Glen Jones"
                 jobTitle="Software Engineer"
-                content="DASFDSSDFDSF ASDFASFASDFASDF ASDFASFASDF AS ASDFASFASDF ASASDFASDFASDFSAD ASDFASFD ASDFJKASFJKD  AJSKDFHAJKSHFD ASDFK JADSKFJH  ASDFJHASJDHF ASJDF ASJDHF AJSDHF JAKSDHFASJDFSADJFHASJFHASDF ASJDHFASKJDFHASJDKFH ASJKDFH ASJKDHF ASJKDFH AJKSDHF JAKSHF AJDHAJDSFH ASKDJHFASKJFH ASKDJHF AKJSDHF JKAHDSFJKA HDFJK HKJAHDSFJKASHDF JA AJKSDHF JAKSDFH AKJSDH AJKSDH DFS DASFDSSDFDSF ASDFASFASDFASDF ASDFASFASDF AS ASDFASFASDF ASASDFASDFASDFSAD ASDFASFD ASDFJKASFJKD  AJSKDFHAJKSHFD ASDFK JADSKFJH  ASDFJHASJDHF ASJDF ASJDHF AJSDHF JAKSDHFASJDFSADJFHASJFHASDF ASJDHFASKJDFHASJDKFH ASJKDFH ASJKDHF ASJKDFH AJKSDHF JAKSHF AJDHAJDSFH ASKDJHFASKJFH ASKDJHF AKJSDHF JKAHDSFJKA HDFJK HKJAHDSFJKASHDF JA AJKSDHF JAKSDFH AKJSDH AJKSDH DFS"
+                content="Having operated as a small business providing IT project management expertise for 10+ years with an overall combined 20+ years within the IT industry, I really enjoy the challenges in delivering great solutions satisfying customer needs. Operating as Full Stack Software Engineer allows me to interact closely with everyone and be creative in delivering these great solutions."
             />
         </>
     );
