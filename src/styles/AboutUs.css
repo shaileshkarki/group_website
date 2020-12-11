@@ -4,7 +4,7 @@
 .about-us-container {
    display: flex;
    flex-direction: row;
-    min-width: 280px;
+    min-width: 260px;
     align-items: center;
     justify-content: center;
     border: 5px solid black;
@@ -15,7 +15,7 @@
 }
 .card-aboutus-wrapper {
     display: flex;
-    min-width: 280px;
+    min-width: 260px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
