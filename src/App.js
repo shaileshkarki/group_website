@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import Home from './components/Home';
 import TechnicalStack from './components/TechnicalStack';
@@ -24,8 +24,24 @@ library.add(fab, fas);
 
 
 function App() {
-const [themeName, setThemeName] =useState(THEMES.DARCULA);
+const [themeName, setThemeName] =useState(THEMES.BASIC);
+const [currentTime, setCurrentTime] = useState(new Date());
 
+// useEffect(() => {
+//   let hours = currentTime.getHours();
+//   let minutes = currentTime.getMinutes();
+//   let seconds = currentTime.getSeconds();
+//   if(hours <= 8 && minutes <= 59 && seconds <= 59) {
+//     // alert("basic")
+//     setThemeName(THEMES.BASIC);
+//   } else if(hours <= 12 && minutes <=20 && seconds <= 59) {
+//     // alert("apple")
+//     setThemeName(THEMES.APPLE);
+//   } else {
+//     // alert("dracula")
+//     setThemeName(THEMES.DARCULA);
+//   }
+// }, [setInterval(()=>{setCurrentTime(new Date())},60000)]);
   return (
     <ThemeProvider theme={getTheme(themeName)}>
     <Router>
