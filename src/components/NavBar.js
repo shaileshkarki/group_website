@@ -18,13 +18,18 @@ export default function NavBar() {
                 Home
             </NavLink>
             <NavLink
-                onClick={() => setCurrentPage("/TechnicalStack")}
-                className={
-                    currentPage === "/TechnicalStack" ? "current-page" : ""
-                }
-                to="/TechnicalStack"
+                onClick={() => setCurrentPage("/AboutUs")}
+                className={currentPage === "/AboutUs" ? "current-page" : ""}
+                to="/AboutUs"
             >
-                Tech-Stack
+                About Us
+            </NavLink>
+            <NavLink
+                onClick={() => setCurrentPage("/OurProcess")}
+                className={currentPage === "/OurProcess" ? "current-page" : ""}
+                to="/OurProcess"
+            >
+                Our Process
             </NavLink>
             <NavLink
                 onClick={() => setCurrentPage("/Portfolio")}
@@ -33,6 +38,16 @@ export default function NavBar() {
             >
                 Portfolio
             </NavLink>
+            <NavLink
+                onClick={() => setCurrentPage("/TechnicalStack")}
+                className={
+                    currentPage === "/TechnicalStack" ? "current-page" : ""
+                }
+                to="/TechnicalStack"
+            >
+                Tech-Stack
+            </NavLink>
+
             <NavLink
                 onClick={() => setCurrentPage("/ContactUs")}
                 className={currentPage === "/ContactUs" ? "current-page" : ""}

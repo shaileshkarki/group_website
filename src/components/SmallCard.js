@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function SmallCard(props) {
     return (
-        <div className="card-wrapper">
+        <div className="card-wrapper rotate-in-center">
             <div className="font-awesome">
                 <FontAwesomeIcon
                     icon={props.iconName}
