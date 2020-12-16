@@ -7,14 +7,14 @@
 }
 .card-title {
     font-weight: bold;
-    color: black;
+    color: #2e3830;
     align-content: center;
     text-align: center;
 }
 
 .card-content {
     margin: 0px 10px 10px 10px;
-    color: darkgray;
+    color: #2e3830;
     align-content: center;
     text-align: justify;
     align-items: stretch;

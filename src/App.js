@@ -25,61 +25,61 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 library.add(fab, fas);
 
 function App() {
-    const [themeName, setThemeName] = useState(THEMES.BASIC);
-    const [currentTime, setCurrentTime] = useState(new Date());
+  const [themeName, setThemeName] = useState(THEMES.BASIC);
+  const [currentTime, setCurrentTime] = useState(new Date());
 
-    // useEffect(() => {
-    //   let hours = currentTime.getHours();
-    //   let minutes = currentTime.getMinutes();
-    //   let seconds = currentTime.getSeconds();
-    //   if(hours <= 8 && minutes <= 59 && seconds <= 59) {
-    //     // alert("basic")
-    //     setThemeName(THEMES.BASIC);
-    //   } else if(hours <= 12 && minutes <=20 && seconds <= 59) {
-    //     // alert("apple")
-    //     setThemeName(THEMES.APPLE);
-    //   } else {
-    //     // alert("dracula")
-    //     setThemeName(THEMES.DARCULA);
-    //   }
-    // }, [setInterval(()=>{setCurrentTime(new Date())},60000)]);
-    return (
-        <ThemeProvider theme={getTheme(themeName)}>
-            <Router>
-                {/* <Switch> */}
-                <div>
-                    <header>
-                        <nav>
-                            <NavBar />
-                        </nav>
-                    </header>
-                    <Header>
-                        <button onClick={() => setThemeName(THEMES.DARCULA)}>
-                            Dracula
+  // useEffect(() => {
+  //   let hours = currentTime.getHours();
+  //   let minutes = currentTime.getMinutes();
+  //   let seconds = currentTime.getSeconds();
+  //   if(hours <= 8 && minutes <= 59 && seconds <= 59) {
+  //     // alert("basic")
+  //     setThemeName(THEMES.BASIC);
+  //   } else if(hours <= 12 && minutes <=20 && seconds <= 59) {
+  //     // alert("apple")
+  //     setThemeName(THEMES.APPLE);
+  //   } else {
+  //     // alert("dracula")
+  //     setThemeName(THEMES.DARCULA);
+  //   }
+  // }, [setInterval(()=>{setCurrentTime(new Date())},60000)]);
+  return (
+    <ThemeProvider theme={getTheme(themeName)}>
+      <Router>
+        {/* <Switch> */}
+        <div>
+          <header>
+            <nav>
+              <NavBar />
+            </nav>
+          </header>
+          <Header>
+            <button onClick={() => setThemeName(THEMES.DARCULA)}>
+              Dracula
                         </button>
-                        <button onClick={() => setThemeName(THEMES.APPLE)}>
-                            Apple
+            <button onClick={() => setThemeName(THEMES.APPLE)}>
+              Apple
                         </button>
-                        <button onClick={() => setThemeName(THEMES.BASIC)}>
-                            Basic
+            <button onClick={() => setThemeName(THEMES.BASIC)}>
+              Basic
                         </button>
-                        <div>
-                            <Route
-                                path="/TechnicalStack"
-                                component={TechnicalStack}
-                            />
-                            <Route path="/Portfolio" component={Portfolio} />
-                            <Route path="/ContactUs" component={ContactUs} />
-                            <Route path="/AboutUs" component={AboutUs} />
-                            <Route path="/OurProcess" component={OurProcess} />
-                            <Route exact path="/" component={Home} />
-                        </div>
-                    </Header>
-                </div>
-                {/* </Switch> */}
-            </Router>
-        </ThemeProvider>
-    );
+            <div>
+              <Route
+                path="/TechnicalStack"
+                component={TechnicalStack}
+              />
+              <Route path="/Portfolio" component={Portfolio} />
+              <Route path="/ContactUs" component={ContactUs} />
+              <Route path="/AboutUs" component={AboutUs} />
+              <Route path="/OurProcess" component={OurProcess} />
+              <Route exact path="/" component={Home} />
+            </div>
+          </Header>
+        </div>
+        {/* </Switch> */}
+      </Router>
+    </ThemeProvider>
+  );
 }
 
 export default App;

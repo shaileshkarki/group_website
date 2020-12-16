@@ -20,7 +20,7 @@ import slackLogo from "../images/programming_icons/slack-2.png";
 
 export default function TechnicalStack() {
     return (
-        <div>
+        <div style={{ backgroundColor: "#e6dbc9" }}>
             <div>
                 <center>
                     <h1>Here's all technologies we have worked with</h1>
