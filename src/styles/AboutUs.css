@@ -7,11 +7,10 @@
     min-width: 260px;
     align-items: center;
     justify-content: center;
-    border: 5px solid black;
+    border: 5px solid #2e3830;
     border-radius: 20px;
     margin: 20px 10%;
     width: 80%;
-    
 }
 .card-aboutus-wrapper {
     display: flex;
@@ -37,18 +36,18 @@
 .card-aboutus-personName {
     overflow: hidden;
     font-weight: bold;
-    color: black;
+    color:#c53211;
     text-align: left;
 }
 
 .card-aboutus-jobTitle {
     overflow: hidden;
-    color: black;
+    color: #c53211;
     /* text-align: left; */
 }
 
 .card-aboutus-content {
-    color: darkgray;
+    color: #2e3830;
     align-content: center;
     text-align: justify;
 }

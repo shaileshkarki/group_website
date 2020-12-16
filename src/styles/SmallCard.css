@@ -3,7 +3,7 @@
   align-items: center;
   text-align: center;
   border-radius: 20px;
-  border: 2px solid black;
+  border: 2px solid #2e3830;
   width: 20%;
   height: auto;
   margin-top: 15px;
@@ -12,13 +12,13 @@
 }
 .card-title {
   font-weight: bold;
-  color: black;
+  color: #c53211;
   align-content: center;
   text-align: center;
 }
 
 .card-paragraph {
-  color: darkgray;
+  color: #2e3830;
   align-content: center;
   text-align: center;
 }
