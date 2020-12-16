@@ -39,7 +39,7 @@ export default function AboutUsPage(props) {
                     <div className="center-tech-stack">
                         <SmallCard
                             iconName="dollar-sign"
-                            color="black"
+                            color="#2e3830"
                             title="Great Value"
                             content="We deliver great solutions at a pragmatic price to suit everyone without compromising on quality."
                         />
@@ -47,7 +47,7 @@ export default function AboutUsPage(props) {
                     <div className="center-tech-stack">
                         <SmallCard
                             iconName="lightbulb"
-                            color="black"
+                            color="#2e3830"
                             title="Easy"
                             content="We will explain our technical solution to your needs in an easy to understand manner."
                         />
@@ -56,7 +56,7 @@ export default function AboutUsPage(props) {
                     <div className="center-tech-stack">
                         <SmallCard
                             iconName="copyright"
-                            color="black"
+                            color="#2e3830"
                             title="Copyright"
                             content="All your Intellectual Property and content remains with you."
                         />
@@ -65,7 +65,7 @@ export default function AboutUsPage(props) {
                     <div className="center-tech-stack">
                         <SmallCard
                             iconName="smile-beam"
-                            color="black"
+                            color="#2e3830"
                             title="Friendly"
                             content="We are all friendly and genuinely like meeting and interacting with new people.."
                         />
@@ -74,7 +74,7 @@ export default function AboutUsPage(props) {
                     <div className="center-tech-stack">
                         <SmallCard
                             iconName="rocket"
-                            color="black"
+                            color="#2e3830"
                             title="Responsive"
                             content="We are quick and responsive and will always keep you informed."
                         />
@@ -83,7 +83,7 @@ export default function AboutUsPage(props) {
                     <div className="center-tech-stack">
                         <SmallCard
                             iconName="search"
-                            color="black"
+                            color="#2e3830"
                             title="Transparent"
                             content="We are transparent in everything we do meaning no hiden extras or suprises."
                         />
@@ -92,7 +92,7 @@ export default function AboutUsPage(props) {
                     <div className="center-tech-stack">
                         <SmallCard
                             iconName="headset"
-                            color="black"
+                            color="#2e3830"
                             title="Supportive"
                             content="We are transparent in everything we do meaning no hiden extras or suprises."
                         />

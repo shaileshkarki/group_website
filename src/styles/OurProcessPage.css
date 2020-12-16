@@ -1,7 +1,7 @@
-* {
+/* * {
     box-sizing: border-box;
-}
-.about-us-container {
+} */
+/* .about-us-container {
     display: flex;
     flex-direction: row;
     min-width: 260px;
@@ -42,8 +42,9 @@
 .card-aboutus-jobTitle {
     overflow: hidden;
     color: black;
-    /* text-align: left; */
+    text-align: left; 
 }
+
 
 .card-aboutus-content {
     color: darkgray;
@@ -55,4 +56,4 @@
     .about-us-container {
         flex-direction: column;
     }
-}
+} */
