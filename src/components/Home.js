@@ -14,7 +14,7 @@ export default function Home() {
             <div className="wrapper">
                 <Logo />
                 <InformationPara
-                    title="Hi, we are Glen, Peter and Shailesh."
+                    title="Hi, we are Peter, Glen and Shailesh."
                     body="And, this is a website to showcase some of the projects we have done together."
                     titleFontSize="2rem"
                     bodyFontSize="1.5rem"

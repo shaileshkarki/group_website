@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/LargeCard.css";
+import {LargeCardWrapper} from "../styles";
 
 export default function LargeCard(props) {
     // console.log(props.images)
     return (
-        <div className="ls-card-wrapper ">
+        <LargeCardWrapper>
             <a href={props.link}><img
                 src={props.image}
                 height="100%"
@@ -21,6 +22,6 @@ export default function LargeCard(props) {
                 }
                 )}
             </div>
-        </div>
+        </LargeCardWrapper>
     );
 }

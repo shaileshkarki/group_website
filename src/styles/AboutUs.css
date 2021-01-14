@@ -1,59 +1,59 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .about-us-container {
-   display: flex;
-   flex-direction: row;
-    min-width: 260px;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid #2e3830;
-    border-radius: 20px;
-    margin: 20px 10%;
-    width: 80%;
+  display: flex;
+  flex-direction: row;
+  min-width: 260px;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #2e3830;
+  border-radius: 20px;
+  margin: 20px 10%;
+  width: 80%;
 }
 .card-aboutus-wrapper {
-    display: flex;
-    min-width: 260px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+  display: flex;
+  min-width: 260px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card-aboutus-image {
-    flex-wrap: wrap;
-    height: 150px;
-    width: 150px;
-    border-radius: 75px;
-    margin: 10px 10px 10px 10px;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin: 10px 10px 10px 10px;
 }
+
 .div-wrapper {
-    flex-wrap: wrap;
-    overflow: auto;
-    margin: 10px 10px 10px 10px;
+  flex-wrap: wrap;
+  overflow: auto;
+  margin: 10px 10px 10px 10px;
 }
 .card-aboutus-personName {
-    overflow: hidden;
-    font-weight: bold;
-    color:#c53211;
-    text-align: left;
+  overflow: hidden;
+  font-weight: bold;
+  color: #c53211;
+  text-align: left;
 }
 
 .card-aboutus-jobTitle {
-    overflow: hidden;
-    color: #c53211;
-    /* text-align: left; */
+  overflow: hidden;
+  color: #c53211;
+  /* text-align: left; */
 }
 
 .card-aboutus-content {
-    color: #2e3830;
-    align-content: center;
-    text-align: justify;
+  color: #2e3830;
+  align-content: center;
+  text-align: justify;
 }
 
- @media only screen and (max-width: 767px) {
-    .about-us-container {   
-        flex-direction: column;
-    }
+@media only screen and (max-width: 767px) {
+  .about-us-container {
+    flex-direction: column;
+  }
 }

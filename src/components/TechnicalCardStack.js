@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/TechnicalCardStack.css";
-
+import {SmallCardWrapper} from "../styles";
 export default function TechnicalCardStack(props) {
     console.log(props);
     return (
-        <div className="card-wrapper rotate-in-center">
+            <SmallCardWrapper>
+        <div className="rotate-in-center">
             <img
                 className="card-image"
                 src={props.src}
@@ -16,5 +17,6 @@ export default function TechnicalCardStack(props) {
             <p className="card-content">{props.content}</p>
 
         </div>
+        </SmallCardWrapper>
     );
 }
